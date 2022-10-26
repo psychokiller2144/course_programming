@@ -1,0 +1,55 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} 
+
+img{
+    height: 120px;
+}
+
+header{
+    padding-bottom: 10px; /*px em rem % */
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+header h1 {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+div{
+    padding-bottom: 5px;
+    border: 5px dotted cornflowerblue;
+}
+
+fieldset{
+    background-color: palegreen;
+    margin-bottom: 5px;
+}
+
+legend{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+fieldset li{
+    list-style: none;
+    margin-bottom: 15px;
+
+}
+
+/*
+input[type="submit"]{
+    background-color: pink;
+    opacity: 0.6;
+    width: 200px;
+} 
+*/
+
+.button{
+    background-color: pink;
+    opacity: 0.6;
+    width: 200px;
+}

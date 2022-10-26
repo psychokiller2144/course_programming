@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact-Us</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!--
+    <style>
+     
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: chartreuse;
+        }
+    </style>
+    -->
+
+
+</head>
+
+<body>
+    <article>
+        <header>
+            <img src="contoso_img.png" alt="">
+            <h1>Contact R2D2 Conferencing</h1>
+        </header>
+
+        <div>
+            <p>Contoso Conferencing Ltd.</p>
+            <p>
+                123 South Street <br>
+                Somewhere <br>
+                Over there <br>
+                <em> USA </em>
+            </p>
+            <p> <a href="mailto:contact@r2d2.com"> contact@r2d2.com </a> </p>
+        </div>
+
+
+        <div>
+            <p> If you would like to contact Contoso conferencing ... </p>
+
+            <form method="post" action="/contactus">
+
+                <fieldset>
+                    <legend>
+                        <span> Your details </span>
+                    </legend>
+                    <ul>
+                        <!-- unordered list ->UL | ordered list -> OL | list item -> li-->
+                        <li>
+                            <label>
+                                <strong>Full Name</strong> <br>
+                                <input type="text" name="userName">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <strong>Telephone Number</strong> <br>
+                                <input type="text" name="phone">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <strong>Email Address</strong> <br>
+                                <input type="text" name="email">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <strong>Message</strong> <br>
+                                <textarea type="text" name="message" cols="30" rows="10">
+                                    Add your message here...
+                                </textarea>
+                            </label>
+                        </li>
+
+                    </ul>
+                </fieldset>
+
+                <input type="submit" value="Send" class="button">
+
+            </form>
+        </div>
+    </article>
+    <footer>
+        <p> <small> Last updated October 2022 </small> </p>
+    </footer>
+
+</body>
+
+</html>

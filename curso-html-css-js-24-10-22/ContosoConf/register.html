@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for COntosoConf</title>
+    <link rel="stylesheet" href="./styles/site.css">
+    <link rel="stylesheet" href="./styles/pages/register.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <header>
+            <h1>ContosoConf</h1>
+            <p> A two-track conference on the latest HTML5 developments </p>
+        </header>
+
+
+        <section class="register" >
+            <h2> Register for the conference  </h1>
+                <form method="get" action="./registered.html" id="registration-form">
+
+                    <div class="field">
+                        <label>First Name 
+                            <input type="text" id="firstName" name="firstName" required autofocus>
+                        </label>
+                    </div>
+
+                    <div class="field">
+                        <label>Last name
+                            <input type="text" id="lastName" name="lastName" required>
+                        </label>
+                    </div>
+
+                    <div class="field">
+                        <label>Email Address 
+                            <input type="email" id="emailAddress" name="emailAddress" required>
+                        </label>
+                    </div>
+
+                    <div class="field">
+                        <label>Choose a password: 
+                            <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{5,}" title="At least 5 letters and numbers">
+                        </label>
+                    </div>
+
+                    <div class="field">
+                        <label>Confirm your password: 
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        </label>
+                    </div>
+
+                    <div class="field">
+                        <label>Website/blog
+                            <input type="url" id="website" name="websiteUrl" placeholder="http://">
+                        </label>
+                    </div>
+
+                    <button type="submit"> Register </button>
+
+                </form>
+        </section>
+
+        <footer>
+            <p> Hosted by contoso </p>
+
+            <address>
+                Conference center <br>
+                1234 Main Street <br>
+                Seattle <br>
+                WA 98999
+            </address>
+            <p> &#169; 2022 Contoso </p>
+
+        </footer>
+    </div>
+    <script src="./scripts/register.js"></script>
+</body>
+
+</html>

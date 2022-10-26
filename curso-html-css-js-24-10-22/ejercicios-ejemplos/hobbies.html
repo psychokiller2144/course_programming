@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <script src="./hobbies.js"> </script>
+</head>
+<body>
+    
+    <div>
+        <form action="">
+            <fieldset>
+            <legend>
+                Enter your details
+            </legend>
+            <ol>
+                <li>
+                    <label>
+                        <strong>Full Name</strong> <br>
+                        <input type="text" name="userName"> 
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <strong>Telephone number</strong> <br>
+                        <input type="text" name="telephoneNumber"> 
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <strong>Email</strong> <br>
+                        <input type="text" name="email"> 
+                    </label>
+                </li>
+
+
+                <li>
+                    <label>
+                        My hobbies
+                    </label>
+                    <div id="hobbiesList">
+                        <input type="text" name="hobby" class="hobbiesInput">
+                        <button type="button" id="newHobbyButton">Add Hobby</button>
+                        <button type="button" id="deleteHobbyButton">Delete Hobby</button>
+                    </div>
+                </li>
+
+            </ol>
+        </fieldset>
+        <input type="submit" value="Check my details">
+        </form>
+    </div>
+
+</body>
+</html>
